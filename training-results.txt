@@ -5,15 +5,15 @@ Epoch 3/5 - Batch 1380 (val): accuracy: 0.9950 f1_score: 0.9950 loss: 0.0157 pre
 Epoch 4/5 - Batch 1383 (val): accuracy: 0.9949 f1_score: 0.9949 loss: 0.0159 precision: 0.9949 recall: 0.9949WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 Epoch 5/5 - Batch 1379 (val): accuracy: 0.9949 f1_score: 0.9949 loss: 0.0178 precision: 0.9949 recall: 0.9949WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 Epoch 6/5 - Batch 1383 (val): accuracy: 0.9949 f1_score: 0.9948 loss: 0.0180 precision: 0.9949 recall: 0.9948Training finished for: cnn_word
-----------
+--
+--
 Starting training for: cnn_char
-//Epoch 1/5 - Batch 5400 (train): accuracy: 0.9919 f1_score: 0.9921 loss: 0.0307 precision: 0.9931 recall: 0.9911
-Epoch 1/5 - Batch 1383 (val): accuracy: 0.9920 f1_score: 0.9920 loss: 0.0327 precision: 0.9927 recall: 0.9914WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Epoch 1 - Batch 1380 (val): accuracy: 0.9856 f1_score: 0.9861 loss: 0.0515 precision: 0.9877 recall: 0.9846WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Epoch 2 - Batch 1380 (val): accuracy: 0.9910 f1_score: 0.9909 loss: 0.0314 precision: 0.9922 recall: 0.9897WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.  
+Epoch 3 - Batch 1383 (val): accuracy: 0.9921 f1_score: 0.9919 loss: 0.0278 precision: 0.9929 recall: 0.9910WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
-Epoch 4/5 - Batch 1383 (val): accuracy: 0.9908 f1_score: 0.9906 loss: 0.0310 precision: 0.9919 recall: 0.9894WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
-WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
-Training finished for: cnn_char
-
+Epoch 4 - Batch 1381 (val): accuracy: 0.9891 f1_score: 0.9888 loss: 0.0361 precision: 0.9900 recall: 0.9876WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Epoch 5 - Batch 1385 (val): accuracy: 0.9915 f1_score: 0.9911 loss: 0.0303 precision: 0.9922 recall: 0.9901WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. 
 
 ----------
 Starting training for: cnn_combined
@@ -25,7 +25,15 @@ Epoch 3/5 - Batch 1383 (val): accuracy: 0.9949 f1_score: 0.9949 loss: 0.0196 pre
 Epoch 4/5 - Batch 1382 (val): accuracy: 0.9961 f1_score: 0.9961 loss: 0.0149 precision: 0.9962 recall: 0.9961WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 Epoch 5/5 - Batch 889 (train): accuracy: 0.9967 f1_score: 0.9966 loss: 0.0127 precision: 0.9967 recall: 0.9965
-
+--
+Starting training for: cnn_fasttext_keras
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Epoch 1 - Batch 1381 (val): accuracy: 0.9953 f1_score: 0.9953 loss: 0.0163 precision: 0.9953 recall: 0.9952WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Epoch 2 - Batch 1383 (val): accuracy: 0.9953 f1_score: 0.9952 loss: 0.0166 precision: 0.9953 recall: 0.9951WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Epoch 3 - Batch 1382 (val): accuracy: 0.9949 f1_score: 0.9949 loss: 0.0176 precision: 0.9950 recall: 0.9949WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Epoch 4 - Batch 1382 (val): accuracy: 0.9950 f1_score: 0.9950 loss: 0.0203 precision: 0.9950 recall: 0.9950WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Epoch 5 - Batch 1383 (val): accuracy: 0.9950 f1_score: 0.9950 loss: 0.0204 precision: 0.9950 recall: 0.9950Training finished for: cnn_fasttext_keras
+--
 -----------------
 Starting training for: rnn_word
 Epoch 1/5 - Batch 1383 (val): accuracy: 0.9943 f1_score: 0.9943 loss: 0.0172 precision: 0.9944 recall: 0.9943WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
